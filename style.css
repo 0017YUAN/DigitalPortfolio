@@ -145,6 +145,7 @@ p{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 .course-col{
     flex-basis: 31%;
@@ -175,12 +176,13 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    flex-basis: 31%;
 }
-/* .row{
+.row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-} */
+}
 .overview-col{
     flex-basis: 32%;
     border-radius: 10px;
